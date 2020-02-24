@@ -1,4 +1,4 @@
-package com.example.restapi.data
+package com.example.restapi.repository.data
 
 import com.google.gson.annotations.SerializedName
 

@@ -4,20 +4,16 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.restapi.R
-import com.example.restapi.data.UserRepos
+import com.example.restapi.repository.data.UserRepos
 import com.example.restapi.databinding.ActivityMainBinding
 import com.example.restapi.main.adapter.MainAdapter
 import com.example.restapi.viewmodel.MainViewModel
-import java.lang.Exception
 
 class MainActivity : AppCompatActivity() {
 

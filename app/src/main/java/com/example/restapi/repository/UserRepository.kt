@@ -1,7 +1,6 @@
 package com.example.restapi.repository
 
-import com.example.restapi.api.ApiService
-import retrofit2.Retrofit
+import com.example.restapi.repository.api.ApiService
 
 class UserRepository {
 

@@ -1,6 +1,6 @@
 package com.example.restapi.repository
 
-import com.example.restapi.api.ApiService
+import com.example.restapi.repository.api.ApiService
 import com.google.gson.GsonBuilder
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import retrofit2.Retrofit

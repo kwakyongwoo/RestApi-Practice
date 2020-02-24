@@ -1,7 +1,6 @@
-package com.example.restapi.api
+package com.example.restapi.repository.api
 
-import androidx.lifecycle.LiveData
-import com.example.restapi.data.UserRepos
+import com.example.restapi.repository.data.UserRepos
 import retrofit2.http.GET
 import retrofit2.http.Path
 

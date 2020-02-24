@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.restapi.R
-import com.example.restapi.data.UserRepos
+import com.example.restapi.repository.data.UserRepos
 import com.example.restapi.main.viewholder.MainViewHolder
 
 class MainAdapter(private val onClick: (UserRepos) -> Unit) : RecyclerView.Adapter<MainViewHolder>() {
